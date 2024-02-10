@@ -1,0 +1,13 @@
+{
+    "workingDirectory": "${workspaceFolder}\\Home",
+    "proPath": [
+        "c:\\temp",
+        "${workspaceFolder}"
+    ],
+    "dlc": "C:/Progress/OpenEdge", //optional override
+    "proPathMode": "append", // overwrite, prepend
+    "parameterFiles": [ // -pf
+        "default.pf"
+    ],
+    "startupProcedure" : "${workspaceFolder}/vsc-oe-startup.p"
+}
